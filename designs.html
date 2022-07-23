@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body onload="if (document.referrer == '') self.location='index.html';">
+    <style>
+        .project-image img {
+            max-height: 150px;
+        }
+        /* img {
+            object-fit: contain;
+            overflow: hidden;
+            border-radius: 100px;
+        } */
+    </style>
+
+    <div style="width: 100%; height: 100%">
+        <div class="row">
+            <div class="col-md-4  fade-right">
+                <div class="card p-3">
+                    <div class="project-image mb-2">
+                        <img src="images/design1_myportfolio.png" alt="" srcset="">
+                    </div>
+                    <div class="project-title mb-3">
+                        Portfolio Website
+                    </div>
+                    <div class="project-description mb-3 ">
+                        Designed using Figma
+                    </div>
+
+                    <div class="project-viewmore d-flex w-100 justify-content-center">
+                        <a target=”_blank” href="https://www.figma.com/file/LNQcsfy16gPLjEu9v5Nknu/Untitled?node-id=2%3A18"><span class="iconify" data-icon="ooui:link-external-ltr"></span></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-4  fade-right">
+                <div class="card p-3">
+                    <div class="project-image mb-2">
+                        <img src="images/design2_menu.png" alt="" srcset="">
+                    </div>
+                    <div class="project-title mb-3">
+                        Food Menu
+                    </div>
+                    <div class="project-description mb-3 ">
+                        Designed using Figma
+                    </div>
+
+                    <div class="project-viewmore d-flex w-100 justify-content-center">
+                        <a target=”_blank” href="https://www.figma.com/file/VyQP7wMTSUW9I8Sr2mdR55/Takoyaki?node-id=1%3A3"><span class="iconify" data-icon="ooui:link-external-ltr"></span></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <script>
+            $("#projects-tab .col-md-4").addClass("reveal active");
+        </script>
+</body>
+
+</html>
