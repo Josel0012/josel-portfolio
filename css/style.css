@@ -284,6 +284,11 @@
     padding: 0;
 }
 
+#about .row .col-md-7 .btn-download .iconify {
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
 #about .row .col-md-7 .btn-download a {
     background: var(--accent2);
     color: var(--secondary);
