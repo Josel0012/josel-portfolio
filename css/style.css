@@ -428,7 +428,7 @@
 	margin-right: 10px;
 }
 
-#experience ul.custom-bullets li{
+#experience ul.custom-bullets li {
 	text-align: justify;
 }
 #experience ul.technologies {
@@ -441,7 +441,6 @@
 	border: 2px solid;
 	border-color: var(--accent);
 	border-radius: 50px;
-
 }
 /* -------------------projects section styling----------------------- */
 #projects {
@@ -764,6 +763,13 @@
 	#skills .row.technical .col-md-6 {
 		padding: 0 50px;
 	}
+	#skills .col-md-4 {
+		margin-bottom: 10px;
+	}
+	#skills .skills-icon {
+		font-size: 2rem;
+		transition: all 0.5s ease;
+	}
 	#contact .container {
 		padding: 30px;
 	}
@@ -784,6 +790,18 @@
 	#experience .row {
 		padding-left: 20px;
 		padding-right: 20px;
+	}
+	#experience {
+		margin: 0px 10px;
+	}
+	#experience .row .technologies {
+		font-size: .8rem;
+	}
+	#experience ul.technologies {
+		display: block;
+	}
+	#experience ul.technologies li {
+		margin-bottom: 5px;
 	}
 	@keyframes fade-right {
 		0% {
